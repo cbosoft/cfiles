@@ -1144,7 +1144,7 @@ void getFileType(char *filepath)
 void getPreview(char *filepath, int maxy, int maxx)
 {
     getFileType(filepath);
-    if(strcasecmp("jpg",last) == 0 || strcasecmp("png",last) == 0 || strcasecmp("gif",last) == 0 || strcasecmp("jpeg",last) == 0 || strcasecmp("mp3",last) == 0)
+    if(strcasecmp("jpg",last) == 0 || strcasecmp("png",last) == 0 || strcasecmp("gif",last) == 0 || strcasecmp("jpeg",last) == 0 || strcasecmp("mp3",last) == 0 || strcasecmp("pdf",last) == 0)
     {
         getImgPreview(filepath, maxy, maxx);
         clearFlagImg = 1;
